@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans>
+    <bean id="aservice" class="com.bycsmys.mini.spring.model.AServiceImpl"/>
+
+    <bean id="aserviceset" class="com.bycsmys.mini.spring.model.AServiceSetImpl">
+        <property type="String" name="property1" value="Hello world"/>
+    </bean>
+
+
+    <bean id="aserviceconstruct" class="com.bycsmys.mini.spring.model.AServiceConstructImpl">
+        <constructor-arg type="String" name="name" value="abc"/>
+        <constructor-arg type="int" name="level" value="3"/>
+    </bean>
+
+    <bean id="aservicesetandcontruct" class="com.bycsmys.mini.spring.model.AServiceSetAndConstructImpl">
+        <constructor-arg type="String" name="name" value="abc"/>
+        <constructor-arg type="int" name="level" value="3"/>
+        <property type="String" name="property1" value="Someone says"/>
+        <property type="String" name="property2" value="Hello World!"/>
+    </bean>
+
+    <bean id="aserviceref" class="com.bycsmys.mini.spring.model.AServiceRefImpl">
+        <constructor-arg type="String" name="name" value="abc"/>
+        <constructor-arg type="int" name="level" value="3"/>
+        <property type="String" name="property1" value="Someone says"/>
+        <property type="String" name="property2" value="Hello World!"/>
+        <property type="com.bycsmys.mini.spring.model.BaseService" name="ref1" ref="baseservice"/>
+    </bean>
+
+    <bean id="baseservice" class="com.bycsmys.mini.spring.model.BaseService">
+<!--        <property type="com.bycsmys.mini.spring.model.BaseBaseService" name="bbs" ref="basebaseservice"/>-->
+    </bean>
+
+    <bean id="basebaseservice" class="com.bycsmys.mini.spring.model.BaseBaseService">
+        <property type="com.bycsmys.mini.spring.model.AServiceRef" name="as" ref="aserviceref"/>
+    </bean>
+
+
+
+
+
+</beans>
