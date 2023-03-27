@@ -1,6 +1,7 @@
 package com.bycsmys.mini.spring.beans.factory.xml;
 
 import com.bycsmys.mini.spring.beans.AutowireCapableBeanFactory;
+import com.bycsmys.mini.spring.beans.factory.AbstractBeanFactory;
 import com.bycsmys.mini.spring.beans.factory.config.*;
 import com.bycsmys.mini.spring.beans.Resource;
 import com.bycsmys.mini.spring.beans.factory.support.SimpleBeanFactory;
@@ -11,9 +12,9 @@ import java.util.List;
 
 public class XmlBeanDefinitionReader {
 
-    AutowireCapableBeanFactory autowireCapableBeanFactory;
+    AbstractBeanFactory autowireCapableBeanFactory;
 
-    public XmlBeanDefinitionReader(AutowireCapableBeanFactory autowireCapableBeanFactory) {
+    public XmlBeanDefinitionReader(AbstractBeanFactory autowireCapableBeanFactory) {
         this.autowireCapableBeanFactory = autowireCapableBeanFactory;
 
     }

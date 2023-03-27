@@ -31,7 +31,7 @@
 <!--        <property type="com.bycsmys.mini.spring.model.BaseBaseService" name="bbs" ref="basebaseservice"/>-->
     </bean>
 
-    <bean id="basebaseservice" class="com.bycsmys.mini.spring.model.BaseBaseService">
+    <bean id="bbs" class="com.bycsmys.mini.spring.model.BaseBaseService">
         <property type="com.bycsmys.mini.spring.model.AServiceRef" name="as" ref="aserviceref"/>
     </bean>
 

@@ -5,9 +5,9 @@ import com.bycsmys.mini.spring.beans.factory.annptation.Autowired;
 
 import java.lang.reflect.Field;
 
-public class AutowiredAnnotationBeanPostProcessor implements BeanPostProcessor {
+public class AutowiredAnnotationBeanFactoryPostProcessor implements BeanFactoryPostProcessor {
 
-    private AutowireCapableBeanFactory beanFactory;
+    private BeanFactory beanFactory;
 
     @Override
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
@@ -22,6 +22,8 @@ public class AutowiredAnnotationBeanPostProcessor implements BeanPostProcessor {
                 boolean isAutoWired = field.isAnnotationPresent(Autowired.class);
                 if (isAutoWired) {
                     String fieldName = field.getName();
+
+                    // 仅按照属性名称查找 需要确保属性名称和beanId 一样
                     Object autowiredObject = this.getBeanFactory().getBean(fieldName);
                     try {
                         field.setAccessible(true);
@@ -36,20 +38,21 @@ public class AutowiredAnnotationBeanPostProcessor implements BeanPostProcessor {
         }
 
 
-        return null;
+        return result;
     }
 
     @Override
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
-        return null;
+        return bean;
     }
+
 
 
     public BeanFactory getBeanFactory() {
         return beanFactory;
     }
 
-    public void setBeanFactory(AutowireCapableBeanFactory beanFactory) {
+    public void setBeanFactory(BeanFactory beanFactory) {
         this.beanFactory = beanFactory;
     }
 }
