@@ -1,9 +1,8 @@
-package com.bycsmys.mini.spring.beans.factory.xml;
+package com.bycsmys.mini.spring.ioc.beans.factory.xml;
 
-import com.bycsmys.mini.spring.beans.*;
-import com.bycsmys.mini.spring.beans.factory.BeanFactory;
-import com.bycsmys.mini.spring.beans.factory.ConfigurableListableBeanFactory;
-import com.bycsmys.mini.spring.beans.factory.DefaultListableBeanFactory;
+import com.bycsmys.mini.spring.ioc.beans.*;
+import com.bycsmys.mini.spring.ioc.beans.factory.ConfigurableListableBeanFactory;
+import com.bycsmys.mini.spring.ioc.beans.factory.DefaultListableBeanFactory;
 
 public class ClassPathXmlApplicationContext extends AbstractApplicationContext {
     DefaultListableBeanFactory beanFactory;

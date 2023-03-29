@@ -1,4 +1,4 @@
-package com.bycsmys.mini.spring.beans.factory.annptation;
+package com.bycsmys.mini.spring.ioc.beans.factory.annptation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

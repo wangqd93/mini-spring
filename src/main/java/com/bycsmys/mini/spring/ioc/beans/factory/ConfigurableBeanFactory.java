@@ -1,7 +1,7 @@
-package com.bycsmys.mini.spring.beans.factory;
+package com.bycsmys.mini.spring.ioc.beans.factory;
 
-import com.bycsmys.mini.spring.beans.BeanFactoryPostProcessor;
-import com.bycsmys.mini.spring.beans.factory.config.SingletonBeanRegistry;
+import com.bycsmys.mini.spring.ioc.beans.BeanFactoryPostProcessor;
+import com.bycsmys.mini.spring.ioc.beans.factory.config.SingletonBeanRegistry;
 
 public interface ConfigurableBeanFactory extends SingletonBeanRegistry, BeanFactory {
 

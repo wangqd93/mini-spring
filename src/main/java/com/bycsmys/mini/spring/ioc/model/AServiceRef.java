@@ -1,4 +1,4 @@
-package com.bycsmys.mini.spring.model;
+package com.bycsmys.mini.spring.ioc.model;
 
 public interface AServiceRef {
 

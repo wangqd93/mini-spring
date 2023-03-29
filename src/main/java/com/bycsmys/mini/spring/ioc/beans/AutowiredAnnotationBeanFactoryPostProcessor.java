@@ -1,7 +1,7 @@
-package com.bycsmys.mini.spring.beans;
+package com.bycsmys.mini.spring.ioc.beans;
 
-import com.bycsmys.mini.spring.beans.factory.BeanFactory;
-import com.bycsmys.mini.spring.beans.factory.annptation.Autowired;
+import com.bycsmys.mini.spring.ioc.beans.factory.BeanFactory;
+import com.bycsmys.mini.spring.ioc.beans.factory.annptation.Autowired;
 
 import java.lang.reflect.Field;
 

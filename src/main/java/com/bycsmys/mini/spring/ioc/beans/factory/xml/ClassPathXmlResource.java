@@ -1,6 +1,6 @@
-package com.bycsmys.mini.spring.beans.factory.xml;
+package com.bycsmys.mini.spring.ioc.beans.factory.xml;
 
-import com.bycsmys.mini.spring.beans.Resource;
+import com.bycsmys.mini.spring.ioc.beans.Resource;
 import org.dom4j.Document;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;

@@ -1,12 +1,12 @@
-package com.bycsmys.mini.spring.beans.factory.support;
+package com.bycsmys.mini.spring.ioc.beans.factory.support;
 
-import com.bycsmys.mini.spring.beans.factory.config.BeanDefinition;
-import com.bycsmys.mini.spring.beans.BeansException;
-import com.bycsmys.mini.spring.beans.factory.BeanFactory;
-import com.bycsmys.mini.spring.beans.factory.config.ConstructorArgumentValue;
-import com.bycsmys.mini.spring.beans.factory.config.ConstructorArgumentValues;
-import com.bycsmys.mini.spring.beans.factory.config.PropertyValue;
-import com.bycsmys.mini.spring.beans.factory.config.PropertyValues;
+import com.bycsmys.mini.spring.ioc.beans.factory.config.BeanDefinition;
+import com.bycsmys.mini.spring.ioc.beans.BeansException;
+import com.bycsmys.mini.spring.ioc.beans.factory.BeanFactory;
+import com.bycsmys.mini.spring.ioc.beans.factory.config.ConstructorArgumentValue;
+import com.bycsmys.mini.spring.ioc.beans.factory.config.ConstructorArgumentValues;
+import com.bycsmys.mini.spring.ioc.beans.factory.config.PropertyValue;
+import com.bycsmys.mini.spring.ioc.beans.factory.config.PropertyValues;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;

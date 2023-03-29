@@ -1,4 +1,4 @@
-package com.bycsmys.mini.spring.beans.factory.config;
+package com.bycsmys.mini.spring.ioc.beans.factory.config;
 
 public class PropertyValue {
 

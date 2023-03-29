@@ -1,6 +1,6 @@
-package com.bycsmys.mini.spring.beans;
+package com.bycsmys.mini.spring.ioc.beans;
 
-import com.bycsmys.mini.spring.beans.factory.AbstractBeanFactory;
+import com.bycsmys.mini.spring.ioc.beans.factory.AbstractBeanFactory;
 
 import java.util.ArrayList;
 import java.util.List;

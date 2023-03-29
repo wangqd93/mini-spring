@@ -1,6 +1,6 @@
-package com.bycsmys.mini.spring.beans.factory.support;
+package com.bycsmys.mini.spring.ioc.beans.factory.support;
 
-import com.bycsmys.mini.spring.beans.factory.config.BeanDefinition;
+import com.bycsmys.mini.spring.ioc.beans.factory.config.BeanDefinition;
 
 public interface BeanDefinitionRegistry {
 

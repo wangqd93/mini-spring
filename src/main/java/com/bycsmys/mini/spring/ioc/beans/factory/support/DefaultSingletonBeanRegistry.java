@@ -1,6 +1,6 @@
-package com.bycsmys.mini.spring.beans.factory.support;
+package com.bycsmys.mini.spring.ioc.beans.factory.support;
 
-import com.bycsmys.mini.spring.beans.factory.config.SingletonBeanRegistry;
+import com.bycsmys.mini.spring.ioc.beans.factory.config.SingletonBeanRegistry;
 
 import java.util.ArrayList;
 import java.util.List;

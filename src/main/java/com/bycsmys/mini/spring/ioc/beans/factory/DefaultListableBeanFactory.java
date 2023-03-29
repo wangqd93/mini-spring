@@ -1,8 +1,8 @@
-package com.bycsmys.mini.spring.beans.factory;
+package com.bycsmys.mini.spring.ioc.beans.factory;
 
-import com.bycsmys.mini.spring.beans.AbstractAutowireCapableBeanFactory;
-import com.bycsmys.mini.spring.beans.BeansException;
-import com.bycsmys.mini.spring.beans.factory.config.BeanDefinition;
+import com.bycsmys.mini.spring.ioc.beans.AbstractAutowireCapableBeanFactory;
+import com.bycsmys.mini.spring.ioc.beans.BeansException;
+import com.bycsmys.mini.spring.ioc.beans.factory.config.BeanDefinition;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;

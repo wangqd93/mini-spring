@@ -1,6 +1,6 @@
-package com.bycsmys.mini.spring.model;
+package com.bycsmys.mini.spring.ioc.model;
 
-import com.bycsmys.mini.spring.beans.factory.annptation.Autowired;
+import com.bycsmys.mini.spring.ioc.beans.factory.annptation.Autowired;
 
 public class BaseService {
 

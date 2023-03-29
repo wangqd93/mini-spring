@@ -1,10 +1,9 @@
-package com.bycsmys.mini.spring.beans.factory.xml;
+package com.bycsmys.mini.spring.ioc.beans.factory.xml;
 
-import com.bycsmys.mini.spring.beans.AutowireCapableBeanFactory;
-import com.bycsmys.mini.spring.beans.factory.AbstractBeanFactory;
+import com.bycsmys.mini.spring.ioc.beans.factory.AbstractBeanFactory;
 import com.bycsmys.mini.spring.beans.factory.config.*;
-import com.bycsmys.mini.spring.beans.Resource;
-import com.bycsmys.mini.spring.beans.factory.support.SimpleBeanFactory;
+import com.bycsmys.mini.spring.ioc.beans.Resource;
+import com.bycsmys.mini.spring.ioc.beans.factory.config.*;
 import org.dom4j.Element;
 
 import java.util.ArrayList;

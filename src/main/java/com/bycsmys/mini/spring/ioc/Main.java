@@ -1,8 +1,8 @@
-package com.bycsmys.mini.spring;
+package com.bycsmys.mini.spring.ioc;
 
-import com.bycsmys.mini.spring.beans.BeansException;
-import com.bycsmys.mini.spring.beans.factory.xml.ClassPathXmlApplicationContext;
-import com.bycsmys.mini.spring.model.AServiceRef;
+import com.bycsmys.mini.spring.ioc.beans.BeansException;
+import com.bycsmys.mini.spring.ioc.beans.factory.xml.ClassPathXmlApplicationContext;
+import com.bycsmys.mini.spring.ioc.model.AServiceRef;
 
 public class Main {
 

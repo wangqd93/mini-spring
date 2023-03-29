@@ -1,4 +1,4 @@
-package com.bycsmys.mini.spring;
+package com.bycsmys.mini.spring.ioc;
 
 public class Test {
 

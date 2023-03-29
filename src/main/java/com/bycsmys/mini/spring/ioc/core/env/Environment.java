@@ -1,4 +1,4 @@
-package com.bycsmys.mini.spring.core.env;
+package com.bycsmys.mini.spring.ioc.core.env;
 
 public interface Environment extends PropertyResolver{
 

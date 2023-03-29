@@ -1,4 +1,4 @@
-package com.bycsmys.mini.spring.beans;
+package com.bycsmys.mini.spring.ioc.beans;
 
 import java.util.EventListener;
 

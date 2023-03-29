@@ -1,7 +1,7 @@
-package com.bycsmys.mini.spring.beans;
+package com.bycsmys.mini.spring.ioc.beans;
 
-import com.bycsmys.mini.spring.beans.factory.ConfigurableListableBeanFactory;
-import com.bycsmys.mini.spring.core.env.Environment;
+import com.bycsmys.mini.spring.ioc.beans.factory.ConfigurableListableBeanFactory;
+import com.bycsmys.mini.spring.ioc.core.env.Environment;
 
 import java.util.ArrayList;
 import java.util.List;

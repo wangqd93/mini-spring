@@ -1,9 +1,10 @@
-package com.bycsmys.mini.spring.beans.factory;
+package com.bycsmys.mini.spring.ioc.beans.factory;
 
-import com.bycsmys.mini.spring.beans.BeansException;
+import com.bycsmys.mini.spring.ioc.beans.BeansException;
 import com.bycsmys.mini.spring.beans.factory.config.*;
-import com.bycsmys.mini.spring.beans.factory.support.BeanDefinitionRegistry;
-import com.bycsmys.mini.spring.beans.factory.support.DefaultSingletonBeanRegistry;
+import com.bycsmys.mini.spring.ioc.beans.factory.config.*;
+import com.bycsmys.mini.spring.ioc.beans.factory.support.BeanDefinitionRegistry;
+import com.bycsmys.mini.spring.ioc.beans.factory.support.DefaultSingletonBeanRegistry;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;

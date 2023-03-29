@@ -1,6 +1,6 @@
-package com.bycsmys.mini.spring.beans.factory;
+package com.bycsmys.mini.spring.ioc.beans.factory;
 
-import com.bycsmys.mini.spring.beans.BeansException;
+import com.bycsmys.mini.spring.ioc.beans.BeansException;
 
 public interface BeanFactory {
 
